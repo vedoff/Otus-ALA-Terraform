@@ -1,0 +1,11 @@
+#cloud-config
+users:
+  - name: vedoff
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFKf5Q0oBrqdxGoJaUfHAuMionW47liK9t1EOyZNlvup vedoff@nvf"
+
+packages:
+  - nginx

@@ -1,0 +1,7 @@
+*.pub
+*.log
+*.backup
+.terraform/
+*.hcl
+*.json
+*.tfstate
