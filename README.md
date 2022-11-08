@@ -26,6 +26,7 @@
    Выполнить: \
    `ansible-playbook play.yml`
    #### Проверка:
+   подставить полученный адре в выводе `terraform output` \
    `http://external_ip_address_vm_2:8088/` \
    `http://external_ip_address_vm_2:8080/`
  
