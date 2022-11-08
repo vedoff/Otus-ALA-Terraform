@@ -25,4 +25,7 @@
    Вписать полученный ip для `external_ip_address_vm_2` в `hosts` \
    Выполнить: \
    `ansible-playbook play.yml`
+   #### Проверка:
+   `http://external_ip_address_vm_2:8088/` \
+   `http://external_ip_address_vm_2:8080/`
  
