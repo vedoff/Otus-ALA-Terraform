@@ -19,8 +19,10 @@
  - Перейти в папку `nginx`
  - выполнить: \
    `terraform output` \
-   external_ip_address_vm_2 = "ip address" \
-   internal_ip_address_vm_2 = "10.10.2.24" \
-   Вписать external_ip_address_vm_2 в hosts \
+   Получим: \
+   `external_ip_address_vm_2 = "ip address"` \
+   `internal_ip_address_vm_2 = "10.10.2.24"` \
+   Вписать `external_ip_address_vm_2 в hosts` \
+   Выполнить: \
    `ansible-playbook play.yml`
  
